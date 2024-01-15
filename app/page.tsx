@@ -1,3 +1,7 @@
+"use client"
+
+import BaseComponent from "@/components/base.component";
+
 export default function Page() {
-  return <h1>Hello, Next.!</h1>;
+  return <BaseComponent />;
 }
