@@ -9,6 +9,7 @@
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
+    "@fontsource-variable/syne": "^5.0.18",
     "framer-motion": "^10.18.0",
     "next": "latest",
     "react": "^18.2.0",

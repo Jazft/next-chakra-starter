@@ -23,8 +23,8 @@
       "@components/*": [
         "./components/*"
       ],
-      "@lib/*": [
-        "./lib/*"
+      "@config/*": [
+        "./config/*"
       ],
       "@icons/*": [
         "./components/icons/*"
