@@ -1,13 +1,11 @@
 // app/providers.tsx
 'use client'
 
-import { fonts } from '@/config/chakra.fonts';
 import { ChakraProvider, extendTheme } from '@chakra-ui/react';
 
 const theme = extendTheme({
     config: {
         cssVarPrefix: "chk",
-        initialColorMode: "dark",
     },
     fonts: {
         heading: `'Syne Variable', sans-serif`,
