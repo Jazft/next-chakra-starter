@@ -9,7 +9,7 @@ Starting Template using Next.js 14 - ChakraUI with [Turbopack](https://turbo.bui
 - ⚡ Auto-reload
 - 🔨 Build using Next.js 14
 - ✅ Constant updates
-- 🥇 PageSpeed 100 Score
+- 🥇 PageSpeed 90+ Score
 - 💎 Basic SEO
 
 ## Installation
