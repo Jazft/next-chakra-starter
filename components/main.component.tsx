@@ -1,5 +1,6 @@
 import { Button, Center, Heading, Stack, Text } from "@chakra-ui/react";
 import StarIcon from "./icons/star.icon";
+import ThemeSwitcher from "./theme.switcher";
 
 export default () => {
     return (
@@ -10,12 +11,17 @@ export default () => {
                 <Heading>Next.js + ChakraUI</Heading>
 
                 <Stack direction={'row'} spacing={4}>
-                    <Button bg={"black"} color={"white"} borderRadius={'full'} px={6} _hover={{ background: 'black' }}>Explore</Button>
-                    <Button><StarIcon /></Button>
+
+                    <ThemeSwitcher />
+                    <Button>
+                        <a href="">
+                            <StarIcon />
+                        </a>
+                    </Button>
+
                 </Stack>
             </Center>
 
-            <Text color={'gray.400'} fontWeight={'semibold'} position={'absolute'} left={20} bottom={20} fontFamily={'Syne Variable'}>!NobbyDev SST</Text>
         </>
     );
 }

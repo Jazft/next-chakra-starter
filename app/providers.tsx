@@ -1,28 +1,22 @@
 // app/providers.tsx
 'use client'
 
-import { ChakraProvider, extendTheme } from '@chakra-ui/react';
+import { ChakraProvider, extendTheme, } from '@chakra-ui/react';
+import { mode } from '@chakra-ui/theme-tools';
 
 const theme = extendTheme({
-    config: {
-        cssVarPrefix: "chk",
-        initialColorMode: "light",
-        useSystemColorMode: false,
-    },
     fonts: {
         heading: `'Syne Variable', sans-serif`,
         body: `'Rubik', sans-serif`,
     },
     styles: {
-        global: (props) => ({
-            'html, body': {
-                bg: props.colorMode === 'light' ? 'white' : 'neutral.600',
-                lineHeight: 'tall',
-            },
-            a: {
-                color: props.colorMode === 'dark' ? 'teal.300' : 'teal.500',
+        global: props => ({
+            body: {
+                color: mode('#101010', 'whiteAlpha.900')(props),
+                bg: mode('gray.100', '#141214')(props),
             },
         }),
+
     },
 });
 

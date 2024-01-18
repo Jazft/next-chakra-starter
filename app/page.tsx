@@ -1,6 +1,6 @@
 "use client"
 
-import BaseComponent from "@/components/base.component";
+import BaseComponent from "@/components/main.component";
 
 export default function Page() {
   return <BaseComponent />;
