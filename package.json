@@ -1,4 +1,6 @@
 {
+  "author": "NobbyDeveloper",
+  "repository": "github.com/NobbyDeveloper/next-chakra-starter",
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",

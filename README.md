@@ -1,25 +1,32 @@
-# Next.js + Turbopack
+# — Next.js 14 + ChakraUI — Stater Template
+Starting Template using Next.js 14 - ChakraUI with [Turbopack](https://turbo.build/pack) Incluided
 
-This example allows you to get started with `next dev --turbo` quicky.
+## Features
 
-## Deploy your own
+- 🔥 Turbopack incluided
+- 🌙 Theme switcher
+- 🎨 Pre-styled & configured
+- ⚡ Auto-reload
+- 🔨 Build using Next.js 14
+- ✅ Constant updates
+- 🥇 PageSpeed 100 Score
+- 💎 Basic SEO
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-turbopack&project-name=with-turbopack&repository-name=with-turbopack)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-turbopack with-turbopack-app
-```
-
-```bash
-yarn create next-app --example with-turbopack with-turbopack-app
-```
+## Installation
 
 ```bash
-pnpm create next-app --example with-turbopack with-turbopack-app
+  git clone https://github.com/NobbyDeveloper/nextjs-chakra-starter.git next-chakra
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Depending of your package manager, run the following command:
+
+```bash
+  cd next-chakra && npm i # or yarn install - pnpm install
+```
+```bash
+  npm run dev # or pnpm run dev - yarn dev
+```
+
+## Build with 💚
+If you have any feedback, please reach out to us at nobby.developer@proton.me
+
